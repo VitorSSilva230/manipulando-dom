@@ -1,0 +1,36 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: white;
+    
+  }
+  
+  header {
+    background-color: white;
+    padding: 2rem;
+    width: calc(((100% - 1140px) / 2) + 1140px);
+  }
+  
+  .intro {
+    padding: 4rem;
+    background-color: #DEE2E5;
+  }
+
+
+  .container {
+    display: flex;
+    margin: 0 0 0 auto;
+    width: calc(((100% - 1140px) / 2) + 1140px);
+    
+  }
+  
+  .title h1 {
+    font-size: 4rem;
+    
+    
+  }
+
+.description {
+    width: 50%;
+    
+}
