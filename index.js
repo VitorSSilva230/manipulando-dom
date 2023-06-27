@@ -5,7 +5,7 @@ let ballLight = "img/circulo.png" ;
 let ballDark = "img/circulo_dark.png";
 
 let lightSectionColor = "#DEE2E5";
-let darkSectionColor = "red";
+let darkSectionColor = "blue";
 
 function trocarTema() {
     
