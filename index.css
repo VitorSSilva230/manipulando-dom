@@ -15,19 +15,23 @@ body {
     width: 4rem;
   }
 
-  #intro {
-    padding: 4rem;
-    background-color: #DEE2E5;
-  }
-
-
   .container {
     display: flex;
     margin: 0 0 0 auto;
     width: calc(((100% - 1140px) / 2) + 1140px);
     
   }
-  
+
+  #intro {
+    padding: 4rem;
+    background-color: #DEE2E5;
+  }
+
+  .ball {
+    margin: -2rem;
+    margin-top: 1rem;
+  }
+
   .title h1 {
     font-size: 4rem;
     
