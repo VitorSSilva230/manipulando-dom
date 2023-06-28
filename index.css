@@ -34,11 +34,13 @@ body {
 
   .title h1 {
     font-size: 4rem;
-    
-    
   }
 
 .description {
     width: 50%;
-    
+    margin-top: -1rem;
+}
+
+.changeTheme {
+  margin-top: 2rem;
 }
