@@ -6,12 +6,16 @@ body {
   }
   
   header {
-    background-color: white;
-    padding: 2rem;
-    width: calc(((100% - 1140px) / 2) + 1140px);
+    background-color: black;
+    padding: 1rem;
   }
   
-  .intro {
+  header #logo {
+    margin-left: 2rem;
+    width: 4rem;
+  }
+
+  #intro {
     padding: 4rem;
     background-color: #DEE2E5;
   }
