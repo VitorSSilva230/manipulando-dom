@@ -2,7 +2,6 @@ body {
     margin: 0 auto;
     padding: 0;
     background-color: white;
-    
   }
   
   header {
@@ -17,9 +16,9 @@ body {
 
   .container {
     display: flex;
-    margin: 0 0 0 auto;
     width: calc(((100% - 1140px) / 2) + 1140px);
-    
+    /* margin: 0 0 0 auto; */
+    width: 100%;
   }
 
   #intro {
@@ -43,4 +42,73 @@ body {
 
 .changeTheme {
   margin-top: 2rem;
+}
+
+
+#buttonChangeTheme {
+  display: inline-block;
+  padding: .75rem 1.25rem;
+  border-radius: 10rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border-radius: 10rem;
+    z-index: -2;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: darken(black, 15%);
+    transition: all .3s;
+    border-radius: 10rem;
+    z-index: -1;
+  }
+  &:hover {
+    color: #fff;
+    &:before {
+      width: 100%;
+    }
+  }
+}
+  
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #dev {
+    width: 100%;
+    margin-left: -2rem;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  /* Estilos para telas grandes (desktops de alta resolução) */
+
+  #intro {
+    padding: 4rem;
+    background-color: #20de1c;
+  }
+
+
 }

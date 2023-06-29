@@ -5,7 +5,7 @@ let ballLight = "img/circulo_light.png" ;
 let ballDark = "img/circulo_dark.png";
 
 let lightSectionColor = "#DEE2E5";
-let darkSectionColor = "blue";
+let darkSectionColor = "#248eff";
 
 let logoLight = "img/lobo_light.png";
 let logoDark = "img/lobo_dark.png";
